@@ -1,0 +1,2 @@
+SELECT * 
+FROM stripe.payment
