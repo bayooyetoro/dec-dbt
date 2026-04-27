@@ -1,0 +1,6 @@
+sources:
+  - name: stripe
+    database: ds_warehouse
+    schema: stripe
+    tables:
+      - name: payment

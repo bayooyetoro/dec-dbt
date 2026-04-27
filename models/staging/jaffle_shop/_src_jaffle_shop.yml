@@ -1,0 +1,9 @@
+sources:
+  - name: jaffle_shop
+    database: ds_warehouse
+    schema: jaffle_shop
+    description: "These are the tables from the ds_warehouse.jaffle_shop in my warehouse"
+    tables:
+      - name: orders
+      
+      - name: customers

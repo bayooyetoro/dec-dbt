@@ -1,4 +1,4 @@
 SELECT 
     orderid,
     amount
-FROM stripe.payment
+FROM {{ source('stripe', 'payment') }}
