@@ -16,3 +16,5 @@ sources:
               period: day
           loaded_at_field: _etl_loaded_at
       - name: customers
+      - name: stores
+    
