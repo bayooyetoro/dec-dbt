@@ -14,6 +14,7 @@ models:
          - not_null
          
       - name: order_status
+        description: "{{ doc('order_status') }}"
         data_tests:
           - accepted_values:
               arguments:
@@ -23,7 +24,7 @@ models:
                   - returned
                   - placed
                   - return_pending
-                  
+
       - name: customer_id
         data_tests:
           - relationships:
