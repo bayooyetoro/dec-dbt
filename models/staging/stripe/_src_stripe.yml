@@ -4,3 +4,8 @@ sources:
     schema: stripe
     tables:
       - name: payment
+        columns:
+          - name: orderid
+            data_tests:
+              - not_null
+              
